@@ -22,7 +22,7 @@ To help process this data, I created machine learning models capable of classify
 * Used `GridSearch` to tune model parameters.
 * Tuned and compared at least two different classifiers.
 
-### Reporting
+## Findings
 
 * Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
 
