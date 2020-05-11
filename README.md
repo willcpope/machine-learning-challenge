@@ -26,3 +26,25 @@ To help process this data, I created machine learning models capable of classify
 
 * Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
 
+Decision Tree
+0.847254004576659
+Testing Data Score: 0.8735697940503433
+
+SVM
+0.8260869565217391
+Gotta update best fit
+
+KNN
+0.8050734312416555
+
+LOG
+0.816933638443936
+0.8747139588100686
+
+NN
+Accuracy: 0.885011434555
+
+RF
+Clean headers
+0.897025171624714
+0.879862700228833
