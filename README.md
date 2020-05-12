@@ -24,8 +24,6 @@ To help process this data, I created machine learning models capable of classify
 
 ## Findings
 
-* Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
-
 The following machine learning models were used to process the dataset:
 * Decision Tree
 * K-Nearest Neighbors
@@ -34,30 +32,24 @@ The following machine learning models were used to process the dataset:
 * Random Forest
 * Support Vector Machine
 
-After feature selection and tuning the parameters of each model, the Random Forest model classifies candidate exoplanets most accurately. The Random Forest model data score was higher before tuning than the other models after tuning.
+After feature selection and tuning the parameters of each model, the Random Forest model classifies candidate exoplanets most accurately. The Random Forest model data score was higher *before* tuning than the other models *after* tuning.
 
-###Decision Tree
-0.847254004576659
-Testing Data Score: 0.8735697940503433
+With additional feature selection and parameter tuning, the Random Forest model would be good enough to predict new exoplanets.
 
-###K-Nearest Neighbors
-0.8050734312416555
+### Random Forest
+Testing Data Score (after feature selection): **0.9010297482837528**
 
-###Logistic Regression
-0.816933638443936
-0.8747139588100686
+### Neural Network
+Testing Data Score (after feature selection): **0.885011434555**
 
-###Neural Network
-Accuracy: 0.885011434555
+### Support Vector Machine
+Testing Data Score (after feature selection and parmeter tuning): **0.8775743707093822**
 
-###Random Forest
-0.897025171624714
+### Logistic Regression
+Testing Data Score (after feature selection and parmeter tuning): **0.8747139588100686**
 
-###Support Vector Machine
-0.8260869565217391
-0.8775743707093822
+### Decision Tree
+Testing Data Score (after feature selection and parmeter tuning): **0.8735697940503433**
 
-
-
-
-
+### K-Nearest Neighbors
+Testing Data Score (after feature selection and parmeter tuning): **0.8050734312416555**
